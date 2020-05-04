@@ -1,22 +1,32 @@
 import React from 'react';
+
 import logo from './logo.svg';
-import './App.css';
+import './App.scss';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
+        <h1>Typescript React project boilerplate with ESLint and Prettier</h1>
+        <p>This project is initialized with Create React App</p>
+        <h2>This project is consisting of:</h2>
+        <ul>
+          <li>TypeScript</li>
+          <li>React (16+)</li>
+          <li>react-scripts (createReactApp)</li>
+          <li>react-testing-library (not Enzyme)</li>
+          <li>SASS/SCSS</li>
+          <li>ESLint (instead of deprecated TSLint)</li>
+          <li>Prettier</li>
+        </ul>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://github.com/facebook/create-react-app"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Get more info on Create React App
         </a>
       </header>
     </div>
