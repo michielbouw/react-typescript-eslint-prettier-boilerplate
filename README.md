@@ -24,13 +24,15 @@ To install check ([Node.js installation](https://nodejs.org/en/) or [Node Versio
 
 ```bash
 curl -L https://github.com/michielbouw/react-typescript-eslint-prettier-boilerplate/archive/master.zip | tar zx
-mv react-typescript-eslint-prettier-boilerplate APP_NAME && cd APP_NAME
+mv react-typescript-eslint-prettier-boilerplate APP_NAME
+cd APP_NAME
 ```
 
 or
 
 ```bash
 git clone git@github.com:michielbouw/react-typescript-eslint-prettier-boilerplate.git APP_NAME
+cd APP_NAME
 ```
 
 ### `yarn install` (or `npm install`)
