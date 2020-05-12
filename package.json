@@ -4,6 +4,7 @@
     "name": "Michiel Bouw",
     "url": "http://michielbouw.nl"
   },
+  "license": "MIT",
   "version": "0.0.2",
   "scripts": {
     "start": "react-scripts start",
